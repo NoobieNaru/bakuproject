@@ -329,7 +329,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Final Judgement",
-            description: "All non-Haos Bakugan on the gate card have their power levels reduced to 0.",
+            description: "The Bakugan with a different Attribute than the Gate Card's user automatically has their power reduced to 0.",
             price: "??? HSP"
         },
         {
@@ -357,7 +357,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "SAC",
             image: "./images/cards/Anthemusa.png",
             title: "Anthemusa",
-            description: "All weaker adjacent Bakugan are moved to Sirenoid's gate card and immediately defeated.",
+            description: "All adjacent Bakugan are moved to Sirenoid's gate card and immediately defeated.",
             price: "??? HSP"
         },
         {
@@ -387,21 +387,21 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CheeringBattle.png",
             title: "Cheering Battle",
-            description: "Add an additional Bakugan to the battle but it's power level is reduced by 100 until it's 100 or less.",
+            description: "Add an additional Bakugan to the battle but its power level is reduced by 100 until it's 100 or less.",
             price: "??? HSP"
         },
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Peacemaker",
-            description: "All Bakugan on the gate card are returned to their owner's hands.",
+            description: "Returns all battling Bakugan on this Gate Card to their player's hands.",
             price: "??? HSP"
         },
         {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Additional Task",
-            description: "The last Bakugan thrown on the gate card is returned to it's owner and is replaced by another Bakugan from their hand.",
+            description: "The last Bakugan thrown on the gate card is returned to its owner and is replaced by another Bakugan from their hand.",
             price: "??? HSP"
         },
         {
@@ -463,14 +463,14 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/QuartetBattle.png",
             title: "Quartet Battle",
-            description: "Both players add a new Bakugan to the battle.",
+            description: "The battle is placed on hold until there are four Bakugan on the field or forces each player to add in another Bakugan.",
             price: "??? HSP"
         },
          {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Double Battle",
-            description: "Both players add an additional Bakugan to the battle.",
+            description: "Forces both players to add in an additional Bakugan.",
             price: "??? HSP"
         },
         {
@@ -1041,14 +1041,14 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Energy Merge",
-            description: "100 G's are transferred from the last Bakugan to stand on the gate card to the first.",
+            description: "Transfers 100 Gs from the last Bakugan that stands on the card to the first one.",
             price: "??? HSP"
         },
 	    {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Hyper Merge",
-            description: "Transfer 100 G's from an opponent's Bakugan to each of yours currently in battle.",
+            description: "Transfers 100 Gs from the opponent to your Bakugan for each Bakugan you have on the field.",
             price: "??? HSP"
         },
 	    {
@@ -1097,7 +1097,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Supernova",
-            description: "All Bakugan present on the gate cards have their power levels swapped.",
+            description: "Swaps the G-Power of your Bakugan with your opponent.",
             price: "??? HSP"
         },
 	    {
@@ -1118,7 +1118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Intercept",
-            description: "The battle is put on hold until another Bakugan is added to the gate card.",
+            description: "Stops two Bakugan from brawling and moves on to the next player's turn. If another Bakugan is added to this card, the opponent's Bakugan battles the Bakugan that was just thrown in.",
             price: "??? HSP"
         },
 	    {
@@ -1146,7 +1146,7 @@ document.addEventListener("DOMContentLoaded", function () {
             type: "CGC",
             image: "./images/cards/CommandGateCards.png",
             title: "Wall Lock",
-            description: "All power level changes for Bakugan on this gate card are nullified.",
+            description: "Nullifies the opponent's ability.",
             price: "??? HSP"
         },
 	    {
